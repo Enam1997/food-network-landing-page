@@ -1,0 +1,176 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+
+}
+
+.first-section {
+    display: flex;
+
+}
+
+.first-section-title {
+    font-size: 60px;
+    color: grey;
+    letter-spacing: -2px;
+}
+
+.first-section-half {
+    width: 50%;
+    padding: 5%;
+    margin-left: 5%;
+}
+
+#first-section-title-heighlight {
+    color: orange;
+}
+
+.button1 {
+    padding: 20px 30px;
+    text-decoration: none;
+    background-color: orange;
+    background-image: linear-gradient(#fc8f49, #fe4a2e);
+    border-radius: 100px;
+
+}
+
+.first-section-half img {
+    width: 80%;
+}
+
+.first-section-half p {
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 10%;
+}
+
+
+.second-section {
+    display: flex;
+    background-image: url(images/section-two-background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 600px;
+
+}
+
+.second-section-half {
+    width: 50%;
+    padding: 5%;
+}
+
+.second-section-half img {
+    /* width: 100%;
+    vertical-align: middle; */
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+
+}
+
+.second-section-title {
+
+    font-size: 40px;
+    color: grey;
+
+}
+
+.second-section-half p {
+    font-size: 18px;
+    margin-bottom: 10%;
+}
+
+
+#third-section-title {
+
+    font-size: 36px;
+    color: grey;
+
+
+}
+
+.third-section {
+    margin-top: 60px;
+
+}
+
+.third-section-top-div {
+    width: 30%;
+    margin: auto;
+    display: block;
+    text-align: center;
+}
+
+.third-section-bottom-div {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    margin-left: 10%;
+    margin-right: 10%;
+
+}
+
+
+.recipie-item {
+    width: 30%;
+    padding: 1%;
+    margin: 2%;
+    box-shadow: 10px 10px 20px gray;
+    border-radius: 20px;
+
+}
+
+.item-image img {
+
+    /* width: 100px; */
+    /* width: 30%;
+    padding: 5%; */
+}
+
+
+.item-image {
+    width: 90%;
+    padding: 5%;
+    height: 256px;
+    margin: 0 auto;
+    background-image: url(images/recipe.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: fill;
+
+    border-radius: 10px;
+
+}
+
+
+.recipie-Title {
+
+    font-size: 28px;
+    font-weight: 700;
+}
+
+footer {
+    text-align: center;
+    color: white;
+    background-color: black;
+    height: 256px;
+    width: 100%;
+}
+
+footer h3 {
+    font-size: 30px;
+    color: gray;
+    padding-top: 40px;
+}
+
+footer h3 span {
+    color: orange;
+
+}
