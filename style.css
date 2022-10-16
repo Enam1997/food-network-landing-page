@@ -174,3 +174,26 @@ footer h3 span {
     color: orange;
 
 }
+
+.calculation-section {
+    width: 70%;
+    height: 200px;
+    display: flex;
+    box-shadow: 5px 5px 20px rgb(184, 184, 184);
+    margin: 10% 15% 10% 15%;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.count {
+    width: 25%;
+    height: 140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.calculation-section p {
+    font-weight: 300;
+}
